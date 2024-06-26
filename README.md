@@ -9,16 +9,14 @@ How to Work with It:
 
 4. In the WorkerService directory, open appsettings.json and configure your settings. You can do this while the service is running; just make sure to save the changes:
 
-{
   "WorkerOptions": {
   
-  "Format": "Json", // Select the format in which the data will be written to the file (XML, JSON, CSV) (Not case sensitive)
+    "Format": "Json", // Select the format in which the data will be written to the file (XML, JSON, CSV) (Not case sensitive)
     
-  "Interval": 5 // Set the interval in seconds
+    "Interval": 5 // Set the interval in seconds
     
   }
   
-}
 
 Go to C:\temp\workerservice and open rates.txt. You should see the data from the National Bank of Ukraine in the format specified in the configuration. The data will be updated at the frequency set in the configuration.
 
