@@ -1,7 +1,7 @@
 How to Work with It:
 
 
-1. Open PowerShell as an administrator and execute the following command to create the service: sc.exe create WorkerService binpath= "c:\Your path to the file\WorkerService.exe" start= auto
+1. Open PowerShell as an administrator and execute the following command to create the service: sc.exe create WorkerService binpath= "c:\The path where you unzipped the service\WorkerService.exe" start= auto
 
 2. Open the Services application on your system, find WorkerService, and start the service (right-click and select Start).
 
